@@ -1,0 +1,23 @@
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/848d6580/stylesheets/monokai.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+display: flex;
+  margin: 20px;
+  font: 16px 'Open Sans', sans-serif;
+  flex-direction: column;
+}
+
+.gist .blob-code-inner{ font-size:15px !important; 	}
+.snippet1{
+	display: flex;
+	justify-content:space-around;
+	padding: 15px;
+
+}
+.snippet2{
+	display: flex;
+	justify-content:space-around;
+}
+.header{
+	text-align: center;
+}
